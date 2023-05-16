@@ -1,0 +1,8 @@
+rank = 0: irecv = 1 
+rank = 1: irecv = 2 
+rank = 2: irecv = 3 
+rank = 3: irecv = 4 
+rank = 4: irecv = 5 
+rank = 5: irecv = 6 
+rank = 6: irecv = 7 
+rank = 7: irecv = 8 
