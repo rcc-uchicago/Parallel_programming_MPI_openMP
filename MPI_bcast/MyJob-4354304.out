@@ -1,0 +1,15 @@
+process 3: Before MPI_Bcast, value is 7
+process 7: Before MPI_Bcast, value is 15
+process 4: Before MPI_Bcast, value is 9
+process 1: Before MPI_Bcast, value is 3
+process 3: After MPI_Bcast, value is 40
+process 1: After MPI_Bcast, value is 40
+process 7: After MPI_Bcast, value is 40
+process 4: After MPI_Bcast, value is 40
+process 5: Before MPI_Bcast, value is 11
+process 5: After MPI_Bcast, value is 40
+process 0: After MPI_Bcast, value is 40
+process 6: Before MPI_Bcast, value is 13
+process 6: After MPI_Bcast, value is 40
+process 2: Before MPI_Bcast, value is 5
+process 2: After MPI_Bcast, value is 40
