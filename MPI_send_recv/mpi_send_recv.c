@@ -11,13 +11,9 @@ int main(int argc, char** argv) {
   int size;
   MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-  // We are assuming at least 2 processes for this task
-  if (size < 2) {
-    fprintf(stderr, "World size must be greater than 1 for %s\n", argv[0]);
-    MPI_Abort(MPI_COMM_WORLD, 1);
-  }
 
   int number;
+  number=55;
   if (rank == 0) {
     // If we are rank 0, set the number to -1 and send it to process 1
     number = -1;
@@ -38,7 +34,8 @@ int main(int argc, char** argv) {
       /* communicator = */ MPI_COMM_WORLD, 
       /* status       = */ MPI_STATUS_IGNORE);
     printf("Process 1 received number %d from process 0\n", number);
-  }
+  } else{printf("Process %d has number %d \n",rank, number);}
+
   MPI_Finalize();
 }
 
