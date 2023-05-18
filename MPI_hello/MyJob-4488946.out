@@ -1,0 +1,17 @@
+P1:    'Hello, world!'
+P2:    'Hello, world!'
+P3:    'Hello, world!'
+
+P0:  HELLO_MPI - Master process:
+
+P0:    'Hello, world!'
+P0:    Elapsed wall clock time = 0.000019 seconds.
+P4:    'Hello, world!'
+P5:    'Hello, world!'
+P7:    'Hello, world!'
+P6:    'Hello, world!'
+
+P0:  HELLO_MPI - Master process:
+P0:    Normal end of execution: 'Goodbye!'
+
+18 May 2023 03:51:16 PM

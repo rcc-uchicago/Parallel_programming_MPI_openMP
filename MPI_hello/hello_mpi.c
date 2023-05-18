@@ -46,9 +46,6 @@ int main ( int argc, char *argv[] )
 
     printf ( "\n" );
     printf ( "P%d:  HELLO_MPI - Master process:\n", id );
-    printf ( "P%d:    C/MPI version\n", id );
-    printf ( "P%d:    An MPI example program.\n", id );
-    printf ( "P%d:    The number of processes is %d.\n", id, p );
     printf ( "\n" );
   }
 /*
@@ -72,7 +69,7 @@ int main ( int argc, char *argv[] )
   {
     printf ( "\n" );
     printf ( "P%d:  HELLO_MPI - Master process:\n", id );
-    printf ( "P%d:    Normal end of execution: 'Goodbye, world!'\n", id );
+    printf ( "P%d:    Normal end of execution: 'Goodbye!'\n", id );
     printf ( "\n" );
     timestamp ( );
   }
